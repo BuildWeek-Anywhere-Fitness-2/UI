@@ -3,22 +3,22 @@
   }
   
   h1 {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    font-weight: 700;
+    /* display: flex; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+    /* font-weight: 700; */
     background: #ff6633;
     margin: 0 0 0 0;
   }
   
   #home-logo-mobile {
     /* border-radius: 4%; */
-    width: 110%;
+    width: 100%;
   }
   
   header nav {
     /* border: 2px solid white; */
-    width: 110%;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     background-color: #ff6633;
@@ -39,7 +39,7 @@
   header nav a:hover {
     color: #fa991c;
   }
-  dashboard {
+  .dashboard {
     display:flex;
     justify-content: center;
     align-items: center;
@@ -56,22 +56,12 @@
     justify-content: right;
 
   }
-  .watchlist {
+  .info {
     margin-top: 10px;
     margin-bottom: 10px;
-    width:100%;
+    width:20%;
   }
-  .watchlistimg {
-    width:100%;
-  }
-  .portfolio {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width:100%;
-  }
-  .portfolioimg {
-    width:100%;
-  }
+   
   .trans {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -149,7 +139,8 @@
     
       #header-container {
         display: flex;
-        align-items: flex-start;
+        align-items: flex-end;
+        justify-items: right;
         justify-content: space-around;
         border-bottom: 20px solid #ff6633;
       }
