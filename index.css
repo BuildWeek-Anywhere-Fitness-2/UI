@@ -31,7 +31,8 @@ height: 220px;
   width: 30%;
   align-items: center;
   justify-content: space-evenly;
-  flex-direction: column;
+  flex-direction: column;  
+  
 }
 /* #who {
   display:flex;
