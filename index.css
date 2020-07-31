@@ -143,6 +143,7 @@ header {
     height: 100px;
     align-items: center;
     justify-content: space-evenly;
+    color: white;
   }
   
   footer a{
@@ -237,6 +238,7 @@ header {
       footer {
         /* background-color: white; */
         margin-top: 10px;
+        color:white;
       }
       footer p {
       color: white;
